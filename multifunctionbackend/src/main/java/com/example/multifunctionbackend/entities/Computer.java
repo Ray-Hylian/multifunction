@@ -10,6 +10,9 @@ import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,4 +26,5 @@ public class Computer {
     private long id;
 
     private String model;
+    private LocalDate date;
 }
